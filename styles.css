@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(231, 255, 199);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lists section {
+    width: 33.3333%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.lists section ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.lists section ul li.completed {
+    color: green;
+    font-weight: normal;
+    border-bottom: 1px groove green;
+}
+
+.lists section ul li {
+    font-size: 14pt;
+    color: red;
+    font-weight: bold;
+}
+
+.lists ul li.completed a {
+    display: none;
+}
+
+.lists h1 {
+    font-size: 20pt;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.lists section ul li {
+    border-bottom: 1px solid red;
+    padding: 3px;
+    overflow: hidden;
+}
+
+.lists a {
+    display: block;
+    float: right;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0px 7px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    .lists section {width: 100%;}
+}
